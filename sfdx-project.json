@@ -1,0 +1,19 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "replacements": [
+		{
+			"filename": "force-app/main/default/remoteSiteSettings/TestDemoRSS.remoteSite-meta.xml",
+			"stringToReplace": "https://salesforce.com",
+			"replaceWithEnv": "DEV"
+		}
+  ],
+  "name": "RCM Extract",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "59.0"
+}
